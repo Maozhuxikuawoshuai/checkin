@@ -1,4 +1,5 @@
 import requests
+import time
 
 url = 'https://glados.rocks/api/user/checkin'
 data = {'token': 'glados.network'}
@@ -12,5 +13,13 @@ headers = {
 
 response = requests.post(url, json=data, headers=headers)
 
-print(response.status_code)
+# 获取当前时间
+current_time = int(time.time())
+print(current_time) # 1631186249
+# 转换为localtime
+localtime = time.localtime(current_time)
+# 利用strftime()函数重新格式化时间
+dt = time.strftime('%Y:%m:%d %H:%M:%S', localtime)
+print(dt) # 返回当前时间：2021:09:09 19:17:29
+
 print(response.json())
