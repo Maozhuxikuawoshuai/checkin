@@ -15,7 +15,6 @@ response = requests.post(url, json=data, headers=headers)
 
 # 获取当前时间
 current_time = int(time.time())
-print(current_time) # 1631186249
 # 转换为localtime
 localtime = time.localtime(current_time)
 # 利用strftime()函数重新格式化时间
