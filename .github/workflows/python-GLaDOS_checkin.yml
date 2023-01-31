@@ -5,7 +5,7 @@ name: GLaDOS checkin
 
 on:
   schedule:
-    - cron: '*/1440 * * * *'
+    - cron: '00 00 * * *'
 
 permissions:
   contents: read
