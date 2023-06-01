@@ -4,10 +4,10 @@ import time
 url = 'https://glados.rocks/api/user/checkin'
 data = {'token': 'glados.network'}
 headers = {
-'authorization': '65514417340718653465740470278038-1080-1920',
+'authorization': '22411569344488265160294967890822-1080-1920',
 'Content-type': 'application/json;charset=utf-8',
 'accept': 'application/json, text/plain, */*',
-'cookie': '_ga=GA1.2.708365971.1675044132; _gid=GA1.2.1268817973.1675044132; koa:sess=eyJ1c2VySWQiOjI2NzQ1OCwiX2V4cGlyZSI6MTcwMDk2NjMyNjM3NiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=GOjBA2u8irXWxHqfAr1iHdbZ5hE; Cookie=enabled; Cookie.sig=lbtpENsrE0x6riM8PFTvoh9nepc',
+'cookie': 'koa:sess=eyJ1c2VySWQiOjI1MDk2MywiX2V4cGlyZSI6MTcwODM5NjUyMjc4MiwiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=2FUH_9BtRbEmy_PGSbt1QyPFCjE; _ga=GA1.2.422419851.1682476472; _gid=GA1.2.2008597826.1685604062; _gat_gtag_UA_104464600_2=1; _ga_CZFVKMNT9J=GS1.1.1685604060.6.1.1685604065.0.0.0',
 'origin': 'https://glados.rocks'
 }
 
